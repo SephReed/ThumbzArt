@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Thumbz Art - {{ current }}</title>
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" />
+	<link rel="stylesheet" type="text/css" href="{{.css}}" media="screen" />
+  </head>
+  <body>
+  	<div id="nav_bar"> {{ template "nav_bar" }} </div>
+  	<div id="content">
+	  	HEYHEY
+	    {{ yield }}
+    </div>
+  </body>
+</html>

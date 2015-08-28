@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #222;
+	background-image: url(/images/stars.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+
+	color: #0FF;
+}
+
+
+#nav_bar  {
+	background-color: #333;
+
+	float: left;
+}
+
+
+#nav_bar a {
+	display: block;
+
+	border-style: solid;
+	border-color: #444;
+	border-radius: 8px;
+
+	padding: 10px;
+
+	color: #FFF;
+}
+
+
+#content {
+	float: left;
+	display: inline-block;
+}
