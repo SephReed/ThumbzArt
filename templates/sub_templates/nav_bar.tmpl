@@ -1,10 +1,39 @@
 {{ define "nav_bar" }}
 
-<a href="#"> This is a link</a><br>
-<a href="#"> This is a link</a><br>
-<a href="#"> This is a link</a><br>
-<a href="#"> This is a link</a><br>
-<a href="#"> This is a link</a><br>
+Filters<br>
+<div class="nav_btn filter">
+	My Picks
+	<input type="checkbox" id="my_pick_on">
+	<label for="my_pick_on" id="my_pick" class="standby" title="Filter all posts without 'My Pick' Star tag"> </label>
+</div>
+
+<div class="nav_btn filter">
+	Portfolio
+	<input type="checkbox" id="portfolio_on">
+	<label for="portfolio_on" id="portfolio" class="standby" title="Filter all posts without 'Portfolio' Business Tie tag"> </label>
+</div>
+
+
+Posts<br>
+<div class="nav_btn source">
+	Music 
+	<input type="checkbox" id="music_on">
+	<label for="music_on" id="music" class="standby" title="Show Music Posts"> </label>
+</div>
+
+<div class="nav_btn source">
+	Code 
+	<input type="checkbox" id="code_on">
+	<label for="code_on" id="code" class="standby" title="Show Programming Posts"></label>
+</div>
+
+<div class="nav_btn source">
+	Design
+	<input type="checkbox" id="design_on">
+	<label for="design_on" class="standby" title="Show Design Posts"> </label>
+</div>
+
+
 
 
 {{ end }}

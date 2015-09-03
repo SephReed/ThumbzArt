@@ -13,8 +13,10 @@ body {
 }
 
 
+
+/*NAVBAR*/
 #nav_bar  {
-	background-color: #333;
+	/*background-color: #333;*/
 
 	float: left;
 }
@@ -31,6 +33,115 @@ body {
 
 	color: #FFF;
 }
+
+.nav_btn {
+	border-style: solid;
+	border-color: #222;
+	background-color: rgba(90, 46, 57, 0.27);
+	color: #FAFAFA;
+	padding-left: 2px;
+	height: 30px;
+}
+
+.nav_btn input + label{
+	position: relative;
+	display: block;
+	float: right;
+
+	cursor: pointer;
+	user-select: none;
+
+	left: -2px;
+	top: 1px;
+
+	border-width: 2px 3px 3px 2px;
+	/*border-right-width: 3px;
+	border-bottom-width: 3px;*/
+	/*float: right;*/
+	height: 23px;
+	width: 23px;
+	margin-left: 10px;
+	text-align: center;
+
+	border-radius: 15px;
+
+	border-color: #222;
+	border-top-color: #333;
+	border-left-color: #333;
+	border-style: solid;
+
+	background-color: #514343;
+	color: #222;
+	font-weight: bold;
+	font-size: larger;
+	/*background-image: url(/images/standby_trans.png);*/
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+}
+
+
+.source input[type="checkbox"]:checked + .standby{
+	background-color: #18B969;
+}
+
+.filter input[type="checkbox"]:checked + .standby{
+	background-color: #FB29A7;
+}
+
+.standby:active {
+	left: -1px;
+ 	top: 2px;
+
+ 	border-right-width: 2px;
+	border-bottom-width: 2px;
+
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+	
+/*.source input[type="checkbox"]:checked + .standby{
+ 	
+	
+}*/
+
+
+.nav_btn input[type="checkbox"] {
+	display: none;
+}
+
+
+#music {
+	background-image: url(/images/music_note.png);
+	background-size: 20px 20px;
+	background-position: 2px 1px;
+	background-repeat: no-repeat;
+}
+
+#code {
+	background-image: url("/images/semi_colon.png");
+	background-size: 4px 14px;
+	background-position: 10px 5px;
+	background-repeat: no-repeat;
+}
+
+#my_pick {
+	background-image: url("/images/star.png");
+	background-size: 17px 17px;
+	background-position: 3px 2px;
+	background-repeat: no-repeat;
+}
+
+#portfolio {
+	background-image: url("/images/tie.png");
+	background-size: 24px 23px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
 
 
 #content {
